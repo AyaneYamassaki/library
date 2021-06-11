@@ -1,6 +1,6 @@
 <div class="row mt-5">
     <div class="col-12">
-        <div class="card shadow">
+        <div class="card shadow mt-5">
             <div class="card-header">
                 <div class="card-title">
                     <div class="row">
@@ -11,14 +11,14 @@
                         </div>
                         <div class="col-12 col-md-3">
                             <button class="btn btn-block btn-dark btn-new">
-                                <i class="fas fa-plus-circle"> Adicionar</i>
+                                <i class="fas fa-plus-circle"></i> Adicionar
                             </button>
                         </div>
                     </div>
                 </div>
                 <div class="card-body">
                     <div class="table-responsive">
-                        <table class="table table-hover" id="table-eixo">
+                        <table class="table table-hover" id="eixo">
                             <thead class="thead-dark">
                                 <tr>
                                     <th scope="col" class="text-center">ID</th>
@@ -26,7 +26,6 @@
                                     <th scope="col" class="text-center">AÇÕES</th>
                                 </tr>
                             </thead>
-
                         </table>
                     </div>
                 </div>
@@ -48,8 +47,8 @@
                 <p>Content</p>
             </div>
             <div class="modal-footer">
-                <button class="btn btn-secoundary"><i data-dismiss="modal" class="fas fa-times-circle"> Fechar</i></button>
-                <button class="btn btn-success btn-save"><i class="fas fa-save"> Salvar</i></button>
+                <button class="btn btn-secondary" data-dismiss="modal"><i class="fas fa-times-circle"></i> Fechar</button>
+                <button class="btn btn-success btn-save"><i class="fas fa-save"></i> Salvar</button>
             </div>
         </div>
     </div>
@@ -57,3 +56,7 @@
 
 <script src="src/eixo/controller/new-eixo.js"></script>
 <script src="src/eixo/controller/save-eixo.js"></script>
+<script src="src/eixo/controller/list-eixo.js"></script>
+<script src="src/eixo/controller/edit-eixo.js"></script>
+<script src="src/eixo/controller/view-eixo.js"></script>
+<script src="src/eixo/controller/delete-eixo.js"></script>
